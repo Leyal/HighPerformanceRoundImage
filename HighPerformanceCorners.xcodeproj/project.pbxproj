@@ -13,6 +13,8 @@
 		A53B083020CF4BEC0011147C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53B082F20CF4BEC0011147C /* Assets.xcassets */; };
 		A53B083320CF4BEC0011147C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53B083120CF4BEC0011147C /* LaunchScreen.storyboard */; };
 		A53B083620CF4BEC0011147C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A53B083520CF4BEC0011147C /* main.m */; };
+		A53B083E20CF4C230011147C /* LYCircleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A53B083D20CF4C230011147C /* LYCircleImageView.m */; };
+		A53B084120CF4C9D0011147C /* UIImage+addRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = A53B084020CF4C9D0011147C /* UIImage+addRadius.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		A53B083220CF4BEC0011147C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A53B083420CF4BEC0011147C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A53B083520CF4BEC0011147C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A53B083C20CF4C230011147C /* LYCircleImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCircleImageView.h; sourceTree = "<group>"; };
+		A53B083D20CF4C230011147C /* LYCircleImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCircleImageView.m; sourceTree = "<group>"; };
+		A53B083F20CF4C9D0011147C /* UIImage+addRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+addRadius.h"; sourceTree = "<group>"; };
+		A53B084020CF4C9D0011147C /* UIImage+addRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+addRadius.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				A53B083120CF4BEC0011147C /* LaunchScreen.storyboard */,
 				A53B083420CF4BEC0011147C /* Info.plist */,
 				A53B083520CF4BEC0011147C /* main.m */,
+				A53B083C20CF4C230011147C /* LYCircleImageView.h */,
+				A53B083D20CF4C230011147C /* LYCircleImageView.m */,
+				A53B083F20CF4C9D0011147C /* UIImage+addRadius.h */,
+				A53B084020CF4C9D0011147C /* UIImage+addRadius.m */,
 			);
 			path = HighPerformanceCorners;
 			sourceTree = "<group>";
@@ -143,7 +153,9 @@
 			files = (
 				A53B082B20CF4BEA0011147C /* ViewController.m in Sources */,
 				A53B083620CF4BEC0011147C /* main.m in Sources */,
+				A53B084120CF4C9D0011147C /* UIImage+addRadius.m in Sources */,
 				A53B082820CF4BEA0011147C /* AppDelegate.m in Sources */,
+				A53B083E20CF4C230011147C /* LYCircleImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

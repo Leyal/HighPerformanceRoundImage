@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "LYCircleImageView.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor grayColor];
+    LYCircleImageView * circleView = [[LYCircleImageView alloc]init];
+    circleView.frame = CGRectMake(100, 100, 100, 100);
+    circleView.image = [UIImage imageNamed:@"favicon"];
+    [circleView addCorners:50];
+    [self.view addSubview:circleView];
 }
 
 
