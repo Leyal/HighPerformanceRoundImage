@@ -5,9 +5,8 @@
 具体实现方法：
 <h3>给UIImage写一个分类:</h3>
 UIImage+addRadius
-```
+
  -(UIImage*)imageAddCornerRadius:(CGFloat)radius andSize:(CGSize)size;
-```
 
 ```
 -(UIImage *)imageAddCornerRadius:(CGFloat)radius andSize:(CGSize)size
@@ -27,9 +26,9 @@ UIImage+addRadius
 ```
 <h3>自定义一个UIImageView类继承自UIImageView</h3>
 添加一个自定义方法：
-```
+
 -(void)addCorners:(CGFloat)radius;
-```
+
 
 实现
 ```
